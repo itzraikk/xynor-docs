@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apollo Documentation',
-  tagline: 'Official documentation for the Apollo Discord bot',
+  title: 'Xynor Docs',
+  tagline: 'Official documentation for the Xynor Discord bot',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.apollo.fyi',
+  url: 'https://xynorbot.000.pe',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'itzraikk', // Usually your GitHub org/user name.
+  projectName: 'xynor-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,9 +67,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
-        title: 'Apollo',
+        title: 'XynorBot',
         logo: {
-          alt: 'Apollo Discord Bot Logo',
+          alt: 'Xynor Bot Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -91,7 +91,7 @@ const config = {
             label: 'Premium',
           },
           {
-            href: 'https://github.com/apollo-fyi/apollo-docs',
+            href: 'https://github.com/itzraikk/xynor-docs',
             label: 'GitHub',
             position: 'right',
           }
@@ -121,16 +121,16 @@ const config = {
             title: 'Product',
             items: [
               {
-                label: 'Roadmap',
-                href: 'https://feedback.apollo.fyi',
+                label: 'Feedback',
+                href: 'https://xynorbot.000.pe/feedback',
               },
               {
                 label: 'Support',
-                href: 'https://discord.com/invite/dMnZt6P',
+                href: 'https://xynorbot.000.pe/discord',
               },
               {
                 label: 'Premium',
-                href: 'https://apollo.fyi/premium',
+                href: 'https://xynorbot.000.pe/premium',
               }
             ]
           },
@@ -139,15 +139,15 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.com/invite/dMnZt6P'
+                href: 'https://xynorbot.000.pe/discord'
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/apollo_discord',
+                href: 'https://twitter.com/xynorbot',
               },
               {
-                label: 'Mastodon',
-                href: 'https://mstdn.social/@apollo_discord',
+                label: 'Patreon',
+                href: 'https://patreon.com/xynorbot',
               },
             ],
           },
